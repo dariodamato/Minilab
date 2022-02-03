@@ -742,7 +742,7 @@ void interlockCheck() {
           }
       }
       else if (x=15){
-        if (tempCheck > 27.0) {
+        if (tempCheck > 80.0) {
             
             intlockTrigger = true;
             digitalWrite(intlockSupply, LOW);
